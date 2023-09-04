@@ -57,5 +57,10 @@ public class CalculadoraTest {
 		Assertions.assertEquals(6, subtracao);	
 	}
 
-	
+	@DisplayName("Testa a multiplicação de dois números")
+	@Test
+	public void testMultiplicacaoDoisNumeros() {
+		int multiplicacao = calc.multiplicacao(5,2);
+		Assertions.assertEquals(8, multiplicacao);
+	}
 }
