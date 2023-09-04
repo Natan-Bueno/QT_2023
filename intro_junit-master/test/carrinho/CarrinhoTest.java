@@ -21,4 +21,13 @@ public class CarrinhoTest {
         int qtd = carrinho.getQtdeItems();
         Assertions.assertEquals(1, qtd);
     }
+
+    @DisplayName("Testa obter total de itens no carrinho")
+    @Test
+    public void testGetQtdeItems() {
+        carrinho.addItem(new Produto("Camisa", 10.00));
+        carrinho.addItem(new Produto("Short", 10.00));
+        int qtd = carrinho.getQtdeItems();
+        Assertions.assertEquals(1, qtd);
+    }
 }
