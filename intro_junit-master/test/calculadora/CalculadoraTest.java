@@ -77,4 +77,11 @@ public class CalculadoraTest {
 		boolean positivo = calc.ehPositivo(10);
 		Assertions.assertEquals(true, positivo);
 	}
+
+	@DisplayName("Testa comparação de dois números")
+	@Test
+	public void testComparaDoisnumerosIguais() {
+		int compara = calc.compara(2, 2);
+		Assertions.assertEquals(1, compara);
+	}
 }
