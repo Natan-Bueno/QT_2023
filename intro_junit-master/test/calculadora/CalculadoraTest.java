@@ -70,4 +70,11 @@ public class CalculadoraTest {
 		int somatoria = calc.somatoria(2);
 		Assertions.assertEquals(3, somatoria);
 	}
+
+	@DisplayName("Testa se um número é positivo")
+	@Test
+	public void testEhPositivo() {
+		boolean positivo = calc.ehPositivo(10);
+		Assertions.assertEquals(false, positivo);
+	}
 }
