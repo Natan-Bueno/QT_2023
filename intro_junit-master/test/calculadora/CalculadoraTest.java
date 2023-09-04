@@ -84,4 +84,11 @@ public class CalculadoraTest {
 		int compara = calc.compara(2, 2);
 		Assertions.assertEquals(0, compara);
 	}
+
+	@DisplayName("Testa comparação numero maior com menor")
+	@Test
+	public void testComparaNumeroMaiorComMenor() {
+		int compara = calc.compara(5, 2);
+		Assertions.assertEquals(0, compara);
+	}
 }
