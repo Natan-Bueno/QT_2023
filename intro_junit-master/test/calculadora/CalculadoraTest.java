@@ -61,6 +61,6 @@ public class CalculadoraTest {
 	@Test
 	public void testMultiplicacaoDoisNumeros() {
 		int multiplicacao = calc.multiplicacao(5,2);
-		Assertions.assertEquals(8, multiplicacao);
+		Assertions.assertEquals(10, multiplicacao);
 	}
 }
