@@ -75,6 +75,6 @@ public class CalculadoraTest {
 	@Test
 	public void testEhPositivo() {
 		boolean positivo = calc.ehPositivo(10);
-		Assertions.assertEquals(false, positivo);
+		Assertions.assertEquals(true, positivo);
 	}
 }
