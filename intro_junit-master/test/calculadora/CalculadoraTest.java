@@ -82,6 +82,6 @@ public class CalculadoraTest {
 	@Test
 	public void testComparaDoisnumerosIguais() {
 		int compara = calc.compara(2, 2);
-		Assertions.assertEquals(1, compara);
+		Assertions.assertEquals(0, compara);
 	}
 }
