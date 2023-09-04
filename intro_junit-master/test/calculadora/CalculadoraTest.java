@@ -63,4 +63,11 @@ public class CalculadoraTest {
 		int multiplicacao = calc.multiplicacao(5,2);
 		Assertions.assertEquals(10, multiplicacao);
 	}
+
+	@DisplayName("Testa a somatória de um número")
+	@Test
+	public void testSomatoria() {
+		int somatoria = calc.somatoria(2);
+		Assertions.assertEquals(4, somatoria);
+	}
 }
