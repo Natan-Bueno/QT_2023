@@ -28,6 +28,6 @@ public class CarrinhoTest {
         carrinho.addItem(new Produto("Camisa", 10.00));
         carrinho.addItem(new Produto("Short", 10.00));
         int qtd = carrinho.getQtdeItems();
-        Assertions.assertEquals(1, qtd);
+        Assertions.assertEquals(2, qtd);
     }
 }
