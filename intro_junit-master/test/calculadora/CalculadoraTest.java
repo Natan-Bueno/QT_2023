@@ -68,6 +68,6 @@ public class CalculadoraTest {
 	@Test
 	public void testSomatoria() {
 		int somatoria = calc.somatoria(2);
-		Assertions.assertEquals(4, somatoria);
+		Assertions.assertEquals(3, somatoria);
 	}
 }
