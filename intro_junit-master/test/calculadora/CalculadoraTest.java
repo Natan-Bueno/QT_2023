@@ -89,6 +89,13 @@ public class CalculadoraTest {
 	@Test
 	public void testComparaNumeroMaiorComMenor() {
 		int compara = calc.compara(5, 2);
-		Assertions.assertEquals(0, compara);
+		Assertions.assertEquals(1, compara);
+	}
+
+	@DisplayName("Testa comparação numero menor com maior")
+	@Test
+	public void testComparaNumeroMenorComMaior() {
+		int compara = calc.compara(2,3);
+		Assertions.assertEquals(1, compara);
 	}
 }
