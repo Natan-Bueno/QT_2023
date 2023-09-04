@@ -96,6 +96,6 @@ public class CalculadoraTest {
 	@Test
 	public void testComparaNumeroMenorComMaior() {
 		int compara = calc.compara(2,3);
-		Assertions.assertEquals(1, compara);
+		Assertions.assertEquals(-1, compara);
 	}
 }
