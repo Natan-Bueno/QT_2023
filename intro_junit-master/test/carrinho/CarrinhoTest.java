@@ -19,6 +19,6 @@ public class CarrinhoTest {
     public void testAddItem() {
         carrinho.addItem(new Produto("Camisa", 10.00));
         int qtd = carrinho.getQtdeItems();
-        Assertions.assertEquals(-1, qtd);
+        Assertions.assertEquals(1, qtd);
     }
 }
