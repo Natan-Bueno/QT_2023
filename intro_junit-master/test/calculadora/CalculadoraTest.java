@@ -54,7 +54,7 @@ public class CalculadoraTest {
 	@Test
 	public void testSubtracaoDoisNumeros(){
 		int subtracao = calc.subtracao(8, 2);
-		Assertions.assertEquals(5, subtracao);	
+		Assertions.assertEquals(6, subtracao);	
 	}
 
 	
